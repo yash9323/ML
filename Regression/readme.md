@@ -25,14 +25,14 @@
 ### Medicine- Forecast the different combination of medicines to prepare generic medicines for diseases.
 
 ## Important Terms used in regression analysis :
-**Dependent Variable:** This is the variable that we are trying to understand or forecast.
-**Independent Variable:** These are factors that influence the analysis or target variable and provide us with information regarding the relationship of the variables with the target variable.
-**outliers:** Outliers are extreme values that fall a long way outside of the other observations
-**Multicollinearity:**  it  occurs when independent variables in a regression model are correlated.
-**Heteroscedasticity:** When the variation between the target variable and the independent variable is not constant, it is called heteroscedasticity.
+* **Dependent Variable:** This is the variable that we are trying to understand or forecast.
+* **Independent Variable:** These are factors that influence the analysis or target variable and provide us with information regarding the relationship of the variables with the target variable.
+* **outliers:** Outliers are extreme values that fall a long way outside of the other observations
+* **Multicollinearity:**  it  occurs when independent variables in a regression model are correlated.
+* **Heteroscedasticity:** When the variation between the target variable and the independent variable is not constant, it is called heteroscedasticity.
 overfit: Overfitting means that our algorithm works well on the training set but is unable to perform better on the test sets. It is also known as a problem of high variance.
-**underfit:** When our algorithm works so poorly that it is unable to fit even a training set well, then it is said to underfit the data. It is also known as a problem of high bias.
-**Interpolation and Extrapolation :** Regression models predict a value of the Y variable given known values of the X variables. 
+* **underfit:** When our algorithm works so poorly that it is unable to fit even a training set well, then it is said to underfit the data. It is also known as a problem of high bias.
+* **Interpolation and Extrapolation :** Regression models predict a value of the Y variable given known values of the X variables. 
 Prediction within the range of values in the dataset used for model-fitting is known informally as interpolation. 
 Prediction outside this range of the data is known as extrapolation. Performing extrapolation relies strongly on the regression assumptions. The further the extrapolation goes outside the data, the more room there is for the model to fail due to differences between the assumptions and the sample data or the true values.
 *It is generally advised that when performing extrapolation, one should accompany the estimated value of the dependent variable with a prediction interval that represents the uncertainty. Such intervals tend to expand rapidly as the values of the independent variable(s) moved outside the range covered by the observed data.*
