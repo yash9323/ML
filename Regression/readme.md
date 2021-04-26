@@ -1,4 +1,4 @@
-*Regression 
+*Regression*
 
 Defined As -
 M.M Blair defined Regression as "the measure of the average relationship between two or more variables ".
